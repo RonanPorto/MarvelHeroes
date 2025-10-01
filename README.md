@@ -51,7 +51,7 @@ O projeto está organizado da seguinte forma para garantir escalabilidade e manu
 
 | Tela Principal                                       | Tela de Detalhes                                     |
 | ------------------------------------------------------ | ---------------------------------------------------- |
-| <img src="URL_DA_SUA_IMAGEM_AQUI" width="250"> | <img src="URL_DA_SUA_IMAGEM_AQUI" width="250"> |
+| <img src="https://github.com/RonanPorto/MarvelHeroes/tree/main/MarvelHeroes/Application/Assets.xcassets/Captura%20de%20Tela%202025-10-01%20%C3%A0s%2014.00.06.imageset"> | <img src="URL_DA_SUA_IMAGEM_AQUI" width="250"> |
 
 ## 👨‍💻 Autor
 
