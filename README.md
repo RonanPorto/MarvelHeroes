@@ -14,9 +14,7 @@ O projeto foi construído utilizando as seguintes tecnologias e conceitos:
 
 - **Linguagem:** Swift
 - **UI Framework:** SwiftUI
-- **Arquitetura:** MVVM (Model-View-ViewModel)
 - **Gerenciamento de Estado:** Combine & ObservableObject
-- **Navegação:** NavigationView & NavigationLink
 - **Dados:** Dados locais (mock) simulando o consumo de uma API.
 
 ### Estrutura de Pastas
@@ -25,8 +23,6 @@ O projeto está organizado da seguinte forma para garantir escalabilidade e manu
 
 -   `App/`: Ponto de entrada da aplicação.
 -   `Data/`: Fornecedor de dados locais (mock).
--   `Model/`: Estrutura dos dados (e.g., `Character`, `Abilities`).
--   `ViewModel/`: Lógica de apresentação e estado das Views.
 -   `View/`: Camada de interface do usuário, dividida em:
     -   `Components/`: Componentes de UI reutilizáveis (e.g., `CharacterCardView`).
     -   `Screens/`: As telas completas do aplicativo (e.g., `HomeView`).
