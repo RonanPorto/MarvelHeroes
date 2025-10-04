@@ -43,11 +43,11 @@ O projeto está organizado da seguinte forma para garantir escalabilidade e manu
 
 ## 📸 Screenshots
 
-*(Aqui você pode adicionar screenshots do seu aplicativo quando ele estiver mais avançado)*
+Abaixo estão algumas telas de detalhes de diferentes heróis no aplicativo, mostrando como a interface se adapta a cada personagem.
 
-| Tela Principal                                       | Tela de Detalhes                                     |
-| ------------------------------------------------------ | ---------------------------------------------------- |
-| <img src="https://raw.githubusercontent.com/RonanPorto/MarvelHeroes/main/MarvelHeroes/Application/Assets.xcassets/Captura%20de%20Tela%202025-10-01%20%C3%A0s%2014.00.06.imageset/Captura%20de%20Tela%202025-10-01%20%C3%A0s%2014.00.06.png"> | <img src="URL_DA_SUA_IMAGEM_AQUI" width="250"> |
+| Homem-Aranha | Capitão América | Homem de Ferro |
+| :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/RonanPorto/MarvelHeroes/main/screenshots/detalhes-homem-aranha.png" width="250"> | <img src="https://raw.githubusercontent.com/RonanPorto/MarvelHeroes/main/screenshots/detalhes-capitao-america.png" width="250"> | <img src="https://raw.githubusercontent.com/RonanPorto/MarvelHeroes/main/screenshots/detalhes-homem-de-ferro.png" width="250"> |
 
 ## 👨‍💻 Autor
 
