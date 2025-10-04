@@ -134,80 +134,87 @@ struct HeroesView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 16){
-                    ZStack(alignment: .bottomLeading) {
-                        Image("Image Spider Man")
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(20)
-                            .frame(width: 140, height: 230)
-                        
-                        Image("Shadow Spider Man")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 140, height: 230)
-                        
-                        VStack(alignment: .leading, spacing: 4){
-                            Text("Peter Parker")
-                                .font(.system(size: 10, weight: .medium))
-                                .foregroundColor(.primaryGrey)
+                    
+                    NavigationLink(destination: Spiderman()) {
+                        ZStack(alignment: .bottomLeading) {
+                            Image("Image Spider Man")
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(20)
+                                .frame(width: 140, height: 230)
                             
-                            Text("Homem \nAranha")
-                                .font(.system(size: 20, weight: .heavy))
-                                .foregroundColor(.primaryWhite)
+                            Image("Shadow Spider Man")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 140, height: 230)
+                            
+                            VStack(alignment: .leading, spacing: 4){
+                                Text("Peter Parker")
+                                    .font(.system(size: 10, weight: .medium))
+                                    .foregroundColor(.primaryGrey)
+                                
+                                Text("Homem \nAranha")
+                                    .font(.system(size: 20, weight: .heavy))
+                                    .foregroundColor(.primaryWhite)
+                            }
+                            .padding(16)
                         }
-                        .padding(16)
                     }
                     
                     // MARK: - Heroes Pantera Negra
                     
-                    ZStack(alignment: .bottomLeading) {
-                        Image("Image Black Panther")
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(20)
-                            .frame(width: 140, height: 230)
-                        
-                        Image("Shadow Black Panther")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 140, height: 230)
-                        
-                        VStack(alignment: .leading, spacing: 4){
-                            Text("T'Challa")
-                                .font(.system(size: 10, weight: .medium))
-                                .foregroundColor(.primaryGrey)
+                    NavigationLink(destination: Blackpanther()) {
+                        ZStack(alignment: .bottomLeading) {
+                            Image("Image Black Panther")
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(20)
+                                .frame(width: 140, height: 230)
                             
-                            Text("Pantera \nNegra")
-                                .font(.system(size: 20, weight: .heavy))
-                                .foregroundColor(.primaryWhite)
+                            Image("Shadow Black Panther")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 140, height: 230)
+                            
+                            VStack(alignment: .leading, spacing: 4){
+                                Text("T'Challa")
+                                    .font(.system(size: 10, weight: .medium))
+                                    .foregroundColor(.primaryGrey)
+                                
+                                Text("Pantera \nNegra")
+                                    .font(.system(size: 20, weight: .heavy))
+                                    .foregroundColor(.primaryWhite)
+                            }
+                            .padding(16)
                         }
-                        .padding(16)
                     }
                     
                     // MARK: - Heroes Iron Man
                     
-                    ZStack(alignment: .bottomLeading) {
-                        Image("Image Iron Man (1)")
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(20)
-                            .frame(width: 140, height: 230)
-                        
-                        Image("Shadow Iron Man (1)")
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 140, height: 230)
-                        
-                        VStack(alignment: .leading, spacing: 4){
-                            Text("Tony Stark")
-                                .font(.system(size: 10, weight: .medium))
-                                .foregroundColor(.primaryGrey)
+                    NavigationLink(destination: Ironman()) {
+                        ZStack(alignment: .bottomLeading) {
+                            Image("Image Iron Man (1)")
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(20)
+                                .frame(width: 140, height: 230)
                             
-                            Text("Homem \nde Ferro")
-                                .font(.system(size: 20, weight: .heavy))
-                                .foregroundColor(.primaryWhite)
+                            Image("Shadow Iron Man (1)")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 140, height: 230)
+                            
+                            VStack(alignment: .leading, spacing: 4){
+                                Text("Tony Stark")
+                                    .font(.system(size: 10, weight: .medium))
+                                    .foregroundColor(.primaryGrey)
+                                
+                                Text("Homem \nde Ferro")
+                                    .font(.system(size: 20, weight: .heavy))
+                                    .foregroundColor(.primaryWhite)
+                            }
+                            .padding(16)
                         }
-                        .padding(16)
                     }
                     
                 }
